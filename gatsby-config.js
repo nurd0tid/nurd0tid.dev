@@ -5,11 +5,11 @@ module.exports = {
       name: 'Muhamad Nur',
     },
     pathPrefix: '/',
-    siteUrl: 'https://www.yourdomain.com',
+    siteUrl: 'https://nurd0tid.netlify.app',
     description:
       'Software engineer and open-source creator. This is my digital garden.',
-    feedUrl: 'https://www.taniarascia.com/rss.xml',
-    logo: 'https://www.taniarascia.com/logo.png',
+    feedUrl: 'https://nurd0tid.netlify.app/rss.xml',
+    logo: 'https://nurd0tid.netlify.app/logo.png',
   },
   plugins: [
     // ===================================================================================
@@ -88,7 +88,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: 'Tania Rascia | RSS Feed',
+            title: 'Muhamad Nur | RSS Feed',
           },
         ],
       },
