@@ -8,7 +8,7 @@ import { SEO } from '../components/SEO'
 import { getSimplifiedPosts } from '../utils/helpers'
 import config from '../utils/config'
 import github from '../assets/nav-github.png'
-import floppy from '../assets/nav-floppy.png'
+import resume from '../assets/resume.png'
 import looking from '../assets/self.png'
 
 export default function WebsiteIndex({ data }) {
@@ -58,9 +58,9 @@ export default function WebsiteIndex({ data }) {
               <img src={looking} alt="Me" className="main-image" />
             </div>
             <p className="hero-buttons">
-              <Link to="/me" className="hero-button">
-                <img src={floppy} alt="Me" />
-                More about me
+              <Link to="/resume" className="hero-button">
+                <img src={resume} alt="Resume" />
+                Resume
               </Link>
               {followers && (
                 <a
