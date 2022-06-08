@@ -99,7 +99,7 @@ export default function WebsiteIndex({ data }) {
             </p>
             <p className="hero-buttons">
               <a
-                href="https://taniarascia.substack.com/subscribe"
+                href="/"
                 className="button"
               >
                 Subscribe

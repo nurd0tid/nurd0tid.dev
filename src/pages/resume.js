@@ -35,8 +35,8 @@ export default function resume() {
 
           <h2>Skills</h2>
           <ul>
-            <li><strong>Languages</strong> - Node.js, JavaScript (React/Redux, Vue), TypeScript, GraphQL, SQL, PHP, Python, Bash, HTML5, CSS3, JSON</li>
-            <li><strong>Concepts</strong> - Web Application Development, Design Patterns (REST API Design, MVC), Databases (Postgres, SQL), Authentication and Security (OAuth2, OpenID Connect, SSO, JWT), Linux/UNIX Administration, Webpack, Electron, Version Control (Git), AWS Infrastructure (EC2, Route 53, RDS), Testing (Unit, Component, Integration, End-to-end)</li>
+            <li><strong>Languages</strong> - CodeIgniter, Laravel, Node.js, JavaScript (React), TypeScript, GraphQL, MySQL, SQL, PHP, Bash, HTML5, CSS, JSON, Bootstrap</li>
+            <li><strong>Concepts</strong> - Web Application Development, Design Patterns (REST API Design, MVC), Databases (MySQL), Authentication and Security (OAuth2)</li>
           </ul>
 
           <h2>Education</h2>
