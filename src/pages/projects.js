@@ -40,7 +40,7 @@ const projectsList = [
     image: covid19,
     slug: 'Kawal-Corona-Codeigniter-3',
     tagline: 'Kawal Corona Information System, using Rest API, to display static data, infected with covid19 cases, global and national and mapping infected area.',
-    url: '/',
+    url: 'https://kawalcorona19.herokuapp.com/',
   },
   {
     name: 'Api Portfolio',
