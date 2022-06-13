@@ -58,7 +58,7 @@ module.exports = {
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   custom_elements: [
                     { 'content:encoded': edge.node.html },
-                    { author: 'hello@taniarascia.com' },
+                    { author: 'mnur29054@gmail.com' },
                   ],
                 })
               })
@@ -112,6 +112,13 @@ module.exports = {
       options: {
         name: 'thumbnail',
         path: `${__dirname}/content/thumbnails/`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: `${__dirname}/content/images/`,
       },
     },
     {

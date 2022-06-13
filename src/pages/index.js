@@ -95,7 +95,7 @@ export default function WebsiteIndex({ data }) {
           <div className="flex-content">
             <p>
               Subscribe to the newsletter to get my latest content by email. Not
-              on any set schedule. Unsubscribe anytime.
+              on any set schedule. Unsubscribe anytime. <b><u>Comming Soon</u></b>
             </p>
             <p className="hero-buttons">
               <a
@@ -147,7 +147,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
-            title
+            shortTitle
             tags
             thumbnail {
               childImageSharp {

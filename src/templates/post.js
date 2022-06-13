@@ -5,18 +5,18 @@ import Helmet from 'react-helmet'
 
 import { Layout } from '../components/Layout'
 import { SEO } from '../components/SEO'
-import { Comments } from '../components/Comments'
+// import { Comments } from '../components/Comments'
 import config from '../utils/config'
 import { slugify, appendComments } from '../utils/helpers'
 
 export default function PostTemplate({ data }) {
   const post = data.markdownRemark
   const { tags, title, date, thumbnail } = post.frontmatter
-  const commentBox = React.createRef()
+  // const commentBox = React.createRef()
 
-  useEffect(() => {
-    appendComments(commentBox)
-  }, [commentBox])
+  // useEffect(() => {
+  //   appendComments(commentBox)
+  // }, [commentBox])
 
   return (
     <Layout>
@@ -64,10 +64,10 @@ export default function PostTemplate({ data }) {
         />
       </article>
 
-      <section id="comments" className="comments container">
+      {/* <section id="comments" className="comments container">
         <h3>Comments</h3>
         <Comments commentBox={commentBox} />
-      </section>
+      </section> */}
     </Layout>
   )
 }

@@ -48,6 +48,7 @@ const projectsList = [
     tagline: 'A free, open source rest api portfolio for the web, build with NodeJS + ExpressJS + MySQL',
     image: ApiPortfolio,
     url: '/',
+    writeup: '/membuat-restful-api-node-js-express-mysql-crud'
   },
   {
     name: 'UI - KIT Prakerja',
@@ -64,7 +65,7 @@ export default function ProjectsIndex() {
   useEffect(() => {
     async function getStars() {
       const repos = await fetch(
-        'https://api.github.com/users/taniarascia/repos?per_page=100'
+        'https://api.github.com/users/nurd0tid/repos?per_page=100'
       )
 
       return repos.json()
