@@ -43,9 +43,9 @@ const projectsList = [
     url: 'https://kawalcorona19.herokuapp.com/',
   },
   {
-    name: 'Api Portfolio',
-    slug: 'apiportf-nodejs',
-    tagline: 'A free, open source rest api portfolio for the web, build with NodeJS + ExpressJS + MySQL',
+    name: 'SIAKAD Full Stack',
+    slug: 'siakad-fullstack',
+    tagline: 'A free, open source siakad, build with NodeJS + ExpressJS + MySQL & Frontend React',
     image: ApiPortfolio,
     url: '/',
     writeup: '/membuat-restful-api-node-js-express-mysql-crud'
