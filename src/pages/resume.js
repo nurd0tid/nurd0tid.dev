@@ -28,6 +28,11 @@ export default function resume() {
 
           <h2>Experience</h2>
           <h3>
+            Web Developer
+            <span>2022 September - Now</span>
+          </h3>
+          <p><strong>Officenow, Taxnow.co.id, Cloudnow</strong> — <em>Gedung Artha Graha, JakSel</em></p>
+          <h3>
             Staff IT
             <span>2021 Mei - 2021 Oct</span>
           </h3>
