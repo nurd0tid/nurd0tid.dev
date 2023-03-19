@@ -15,6 +15,13 @@ import wenus from '../../content/thumbnails/nusantara-comp.png'
 import github from '../assets/nav-github.png'
 
 const projectsList = [
+    {
+    name: 'Crypto Wallet App',
+    image: crypto_wallet,
+    slug: 'crypto-wallet-app-flutterr',
+    tagline: 'Slicing Design UI/UX Crypto Wallet App with Flutter',
+    url: 'https://github.com/nurd0tid/Crypto-Wallet-App-Flutter',
+  },
   {
     name: 'Ongkirku',
     slug: 'ongkirku-nodejs',
@@ -57,13 +64,6 @@ const projectsList = [
     slug: 'UI-KIT-Prakerja',
     tagline: 'Prakerja UI-KIT is a Prakerja UI/UX Clone, both from the landing page, login, and register, which is made using css and bootstrap.',
     url: '/',
-  },
-  {
-    name: 'Crypto Wallet App',
-    image: crypto_wallet,
-    slug: 'crypto-wallet-app-flutterr',
-    tagline: 'Slicing Design UI/UX Crypto Wallet App with Flutter',
-    url: 'https://github.com/nurd0tid/Crypto-Wallet-App-Flutter',
   },
 ]
 
