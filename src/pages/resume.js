@@ -40,7 +40,7 @@ export default function resume() {
 
           <h2>Skills</h2>
           <ul>
-            <li><strong>Languages</strong> - CodeIgniter, Laravel, Node.js, JavaScript (React), TypeScript, GraphQL, MySQL, SQL, PHP, Bash, HTML5, CSS, JSON, Bootstrap</li>
+            <li><strong>Languages</strong> - CodeIgniter, Laravel, Node.js, Flutter, JavaScript (React), TypeScript, GraphQL, MySQL, SQL, PHP, Bash, HTML5, CSS, JSON, Bootstrap</li>
             <li><strong>Concepts</strong> - Web Application Development, Design Patterns (REST API Design, MVC), Databases (MySQL), Authentication and Security (OAuth2)</li>
           </ul>
 
