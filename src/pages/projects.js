@@ -7,6 +7,7 @@ import { SEO } from '../components/SEO'
 import config from '../utils/config'
 import ongkirKu from '../../content/thumbnails/ongkirku.png'
 import prakerja from '../../content/thumbnails/prakerja-ui.png'
+import crypto_wallet from '../../content/thumbnails/crypto_wallet.jpg'
 import ApiPortfolio from '../../content/thumbnails/json-apiport.png'
 import sibes from '../../content/thumbnails/sibes.png'
 import covid19 from '../../content/thumbnails/kawal-corona.png'
@@ -55,6 +56,13 @@ const projectsList = [
     image: prakerja,
     slug: 'UI-KIT-Prakerja',
     tagline: 'Prakerja UI-KIT is a Prakerja UI/UX Clone, both from the landing page, login, and register, which is made using css and bootstrap.',
+    url: '/',
+  },
+  {
+    name: 'Crypto Wallet App',
+    image: crypto_wallet,
+    slug: 'crypto-wallet-app-flutterr',
+    tagline: 'Slicing Design UI/UX Crypto Wallet App with Flutter',
     url: '/',
   },
 ]
