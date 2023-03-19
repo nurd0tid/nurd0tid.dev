@@ -63,7 +63,7 @@ const projectsList = [
     image: crypto_wallet,
     slug: 'crypto-wallet-app-flutterr',
     tagline: 'Slicing Design UI/UX Crypto Wallet App with Flutter',
-    url: '/',
+    url: 'https://github.com/nurd0tid/Crypto-Wallet-App-Flutter',
   },
 ]
 
